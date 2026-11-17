@@ -40,8 +40,11 @@
 // let name = "Atharva kesarkar";
 // console.log(`${name} is a good developer`);
 
-let a = Symbol("atharva");
+// _______________________________________________________________________________________________________________
+// it gurrantes about uniqueness , each value is unique
+let a = Symbol("atharva"); 
 let b = Symbol("atharva");
 console.log(a === b);
+console.log(a);
 
 // _______________________________________________________________________________________________________________
