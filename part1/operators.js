@@ -17,19 +17,31 @@
 // console.log(lastname);
 
 
+// _______________________________________________________________________________________________________________
+// null and undefined
 
+// let firstname;
+// console.log(firstname);
 
+// let name = null;
+// console.log(name);
 
+// let lastname = undefined;
+// console.log(lastname);
 
+// _______________________________________________________________________________________________________________
 
+// let firstname = "atharva";
+// console.log(typeof(firstname));
 
+// _______________________________________________________________________________________________________________
+// using backtick 
 
+// let name = "Atharva kesarkar";
+// console.log(`${name} is a good developer`);
 
+let a = Symbol("atharva");
+let b = Symbol("atharva");
+console.log(a === b);
 
-let message = "I love you so much Krutika";
-let result = "";
-
-for (let i = 0; i < message.length; i++) {
-    result += message[i];
-    console.log(result);
-}
+// _______________________________________________________________________________________________________________
