@@ -39,3 +39,11 @@ let mul_arr = [10 , "atharva" , true];
 // ______________________________________________________________________________________________________________
 
 // type conversion - it is basically used to change the data type of the variable
+
+// let name = 20;
+// let result = String(name);
+// console.log(typeof(result));
+
+let name = "Atharva kesarakar";
+let result = Number(name);
+console.log(result);
